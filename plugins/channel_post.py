@@ -54,6 +54,11 @@ async def channel_post(client: Client, message: Message):
 async def new_post(client: Client, message: Message):
     if DISABLE_CHANNEL_BUTTON:
         return
+    # ✅ Skip text-only messages — only attach button to media/files
+    if not (message.document or message.video or message.audio or
+            message.photo or message.animation or message.voice or
+            message.video_note or message.sticker):
+        return
     converted_id = message.id * abs(client.db_channel.id)
     string = f"get-{converted_id}"
     base64_string = await encode(string)
