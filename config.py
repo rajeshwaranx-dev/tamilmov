@@ -65,9 +65,9 @@ TIME = int(os.environ.get("TIME", "600"))
 # Do you want to enable shortner in this bot? Set to TRUE for yes, False for no.
 USE_SHORTLINK = True if os.environ.get('USE_SHORTLINK', "True") == "TRUE" else False 
 # Enter the base URL of the shortlink service (without https://).
-SHORTLINK_API_URL = os.environ.get("SHORTLINK_API_URL", "gplinks.com")
+SHORTLINK_API_URL = os.environ.get("SHORTLINK_API_URL", "softurl.in")
 # Enter the API key provided by your chosen shortner service.
-SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "1a9a19faf5fecf782f95782da436f4c29d39d24b")
+SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "af9171ecc18e306689e6bfc77b59df21801f8221")
 # Set a custom expiration time (in seconds) for the shortlink.
 # Example: 24 hours = 86400, 12 hours = 43200
 # This method is useful only if U_S_E_P or rather the token verification system is enabled in the bot.
