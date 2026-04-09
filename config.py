@@ -55,7 +55,7 @@ USER_REPLY_TEXT = os.environ.get(
     "📢 Channel: https://t.me/cartoongram23"
 )
 # Enter your Telegram username (without @). A public username is required to use this bot.
-OWNER_TAG = os.environ.get("OWNER_TAG", "@Nd2330")")
+OWNER_TAG = os.environ.get("OWNER_TAG", "Nd2330")")
 # Time (in seconds) after which messages will be auto-deleted. Use 0 to keep messages permanently.
 TIME = int(os.environ.get("TIME", "0"))
 
