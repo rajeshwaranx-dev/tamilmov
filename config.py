@@ -35,7 +35,7 @@ API_HASH = os.environ.get("API_HASH", "0605c5395b91ead763072251e20c3417")
 # Enter the channel ID of the database channel where all files will be stored.
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002131801801"))
 # Enter your personal Telegram user ID (you can get it by sending '/id' to https://t.me/MissRose_bot).
-OWNER_ID = int(os.environ.get("OWNER_ID", "877826018"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "5371238852"))
 #port set to default 8080, change according to your will.
 PORT = os.environ.get("PORT", "8026")
 # Enter your MongoDB connection URL. You can use a free cloud database from MongoDB Atlas.
